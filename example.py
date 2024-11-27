@@ -9,3 +9,5 @@ def check_if_aprove_or_not() -> str:
         if result.lower() =='yes':
             return 'Aprobado'
         return 'SUSPENSO'
+
+check_if_aprove_or_not()
